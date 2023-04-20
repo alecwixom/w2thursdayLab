@@ -61,9 +61,7 @@ let cities = [
 
 // CODE HERE
 
-let cityFilter = cities.filter((city) => {
-  return city.includes('i')
-})
+let cityFilter = cities.filter((city) => city[city.length-1] === 'i')
 console.log("City filter:", cityFilter);
 
 ////////// PROBLEM 4 //////////
